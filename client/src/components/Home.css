@@ -1,0 +1,64 @@
+/* Estilos para la lista de productos */
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Estilos para cada tarjeta de producto */
+  .product-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-details h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .product-details p {
+    margin: 5px 0;
+  }
+  .button-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end; /* Alinea el contenido al inicio (izquierda) */
+}
+
+.button {
+    width: 80px;
+    text-align: lef; /* Alinea el texto del botón a la izquierda */
+}
+  
+  /* Estilos para la paginación */
+  .paginado {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .paginado li {
+    margin: 0 5px;
+    list-style: none;
+  }
+  
+  .paginado li a {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #333333;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+  }
+  
+  .paginado li a:hover {
+    background-color: #eeeeee;
+  }
+  

@@ -1,0 +1,31 @@
+.product-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product-details {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-details img {
+    width: 80%;
+    height: 50%;
+    border-radius: 5px;
+  }
+  
+  .product-details h3 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .product-details p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  

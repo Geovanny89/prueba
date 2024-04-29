@@ -1,0 +1,22 @@
+.paginado {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    list-style: none;
+    padding: 0;
+  }
+  
+  .paginado li {
+    margin-right: 5px; /* Ajusta el espacio entre los elementos */
+  }
+  
+  .paginado li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .paginado li a:hover {
+    background-color: #f0f0f0;
+  }
